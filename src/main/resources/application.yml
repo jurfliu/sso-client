@@ -1,0 +1,8 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /sso-client
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html

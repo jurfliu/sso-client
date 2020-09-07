@@ -1,0 +1,15 @@
+package com.ljf.sso.demo.ssoclient;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SsoClientApplication {
+
+    public static void main(String[] args) {
+
+        SpringApplication.run(SsoClientApplication.class, args);
+        System.out.println("启动成功!!!");
+    }
+
+}
